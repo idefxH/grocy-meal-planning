@@ -1,3 +1,8 @@
+## [0.6.1](https://github.com/Disane87/grocy-meal-planning/compare/v0.6.0...v0.6.1) (2026-03-22)
+
+### Bug Fixes
+
+* subscribe to updateMeal observable and consume recipe stock on done ([56fc338](https://github.com/Disane87/grocy-meal-planning/commit/56fc338a55f18a8530f8078fb2cdc48dad7b1c2e))
 ## [0.6.0](https://github.com/Disane87/grocy-meal-planning/compare/v0.5.1...v0.6.0) (2026-02-24)
 
 ### Features
