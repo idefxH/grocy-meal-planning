@@ -288,11 +288,18 @@ export class GrocyService {
   }
 
   updateMeal(meal: Partial<Meal>): Observable<any> {
+    const body: Record<string, unknown> = {};
+    if (meal.day !== undefined) body['day'] = meal.day;
+    if (meal.recipe_id !== undefined) body['recipe_id'] = meal.recipe_id;
+    if (meal.recipe_servings !== undefined) body['recipe_servings'] = meal.recipe_servings;
+    if (meal.type !== undefined) body['type'] = meal.type;
+    if (meal.section_id !== undefined) body['section_id'] = meal.section_id;
+    if (meal.done !== undefined) body['done'] = meal.done;
     const request = () =>
       this.httpClient
         .put(
           `${this.GROCY_API_URL}objects/meal_plan/${meal.id}`,
-          meal,
+          body,
           this.GROCY_HEADER
         )
         .pipe(
