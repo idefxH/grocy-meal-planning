@@ -268,6 +268,25 @@ export class GrocyService {
     return this.httpRequest(request);
   }
 
+  consumeRecipe(recipeId: number): Observable<any> {
+    const request = () =>
+      this.httpClient
+        .post(
+          `${this.GROCY_API_URL}recipes/${recipeId}/consume`,
+          {},
+          this.GROCY_HEADER
+        )
+        .pipe(
+          this.hotToastService.observe({
+            loading: this.translocoService.translate('CONSUMING_RECIPE'),
+            success: this.translocoService.translate('CONSUMING_RECIPE_SUCCESS'),
+            error: this.translocoService.translate('CONSUMING_RECIPE_ERROR'),
+          }),
+          catchError((error) => of(error))
+        );
+    return this.httpRequest(request);
+  }
+
   updateMeal(meal: Partial<Meal>): Observable<any> {
     const request = () =>
       this.httpClient
