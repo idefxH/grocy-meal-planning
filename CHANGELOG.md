@@ -1,3 +1,8 @@
+## [0.6.2](https://github.com/Disane87/grocy-meal-planning/compare/v0.6.1...v0.6.2) (2026-03-22)
+
+### Bug Fixes
+
+* whitelist meal_plan fields in updateMeal to avoid Grocy 400 errors ([9fccf3d](https://github.com/Disane87/grocy-meal-planning/commit/9fccf3d7c70710543f9a1b2caa04ffced2f45f9e))
 ## [0.6.1](https://github.com/Disane87/grocy-meal-planning/compare/v0.6.0...v0.6.1) (2026-03-22)
 
 ### Bug Fixes
