@@ -1,3 +1,8 @@
+## [0.7.1](https://github.com/idefxH/grocy-meal-planning/compare/v0.7.0...v0.7.1) (2026-03-25)
+
+### Bug Fixes
+
+* copy .npmrc and add --legacy-peer-deps to npm ci ([73289b0](https://github.com/idefxH/grocy-meal-planning/commit/73289b07d0e67814cfc74c67b7484a924a632d3b))
 ## 0.7.0 (2026-03-25)
 
 ### Features
