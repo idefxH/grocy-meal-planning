@@ -1,0 +1,14 @@
+{
+  "version": "0.7.0",
+  "date": "2026-03-25T17:39:32.501Z",
+  "features": [
+    "add Dockerfile and GitHub Actions for multi-arch build"
+  ],
+  "fixes": [],
+  "breaking": [],
+  "improvements": [],
+  "maintenance": [],
+  "styling": [],
+  "documentation": [],
+  "other": []
+}
