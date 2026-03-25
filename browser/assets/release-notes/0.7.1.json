@@ -1,0 +1,18 @@
+{
+  "version": "0.7.1",
+  "date": "2026-03-25T17:54:38.255Z",
+  "features": [
+    "add Dockerfile and GitHub Actions for multi-arch build"
+  ],
+  "fixes": [
+    "copy .npmrc and add --legacy-peer-deps to npm ci"
+  ],
+  "breaking": [],
+  "improvements": [],
+  "maintenance": [],
+  "styling": [],
+  "documentation": [],
+  "other": [
+    "chore(release): 0.7.0"
+  ]
+}
