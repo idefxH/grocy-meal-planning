@@ -1,3 +1,8 @@
+## [0.7.3](https://github.com/idefxH/grocy-meal-planning/compare/v0.7.2...v0.7.3) (2026-03-25)
+
+### Bug Fixes
+
+* correct COPY path in Dockerfile for Angular build output ([f919d1f](https://github.com/idefxH/grocy-meal-planning/commit/f919d1ffb3eca6b381d1049cd3195dd9147bfd97))
 ## [0.7.2](https://github.com/idefxH/grocy-meal-planning/compare/v0.7.1...v0.7.2) (2026-03-25)
 
 ### Bug Fixes

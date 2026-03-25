@@ -1,0 +1,22 @@
+{
+  "version": "0.7.3",
+  "date": "2026-03-25T18:23:46.735Z",
+  "features": [
+    "add Dockerfile and GitHub Actions for multi-arch build"
+  ],
+  "fixes": [
+    "correct COPY path in Dockerfile for Angular build output",
+    "build Angular natively, multi-arch only for nginx runtime",
+    "copy .npmrc and add --legacy-peer-deps to npm ci"
+  ],
+  "breaking": [],
+  "improvements": [],
+  "maintenance": [],
+  "styling": [],
+  "documentation": [],
+  "other": [
+    "chore(release): 0.7.2",
+    "chore(release): 0.7.1",
+    "chore(release): 0.7.0"
+  ]
+}
