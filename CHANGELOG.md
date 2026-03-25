@@ -1,3 +1,8 @@
+## [0.7.2](https://github.com/idefxH/grocy-meal-planning/compare/v0.7.1...v0.7.2) (2026-03-25)
+
+### Bug Fixes
+
+* build Angular natively, multi-arch only for nginx runtime ([28f5eb3](https://github.com/idefxH/grocy-meal-planning/commit/28f5eb3aa6a82d957b7a42f17a6db8e59d9fc59d))
 ## [0.7.1](https://github.com/idefxH/grocy-meal-planning/compare/v0.7.0...v0.7.1) (2026-03-25)
 
 ### Bug Fixes
